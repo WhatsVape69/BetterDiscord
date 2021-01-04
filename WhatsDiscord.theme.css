@@ -1,0 +1,100 @@
+//META{"name":"WhatsDiscord","description":"WhatsDiscord made by WhatsVape#6945","author":"WhatsVape","version":"Auto Update"}*//
+@import url('https://raw.githubusercontent.com/WhatsVape69/thing/main/thing1.css');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu');
+@import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
+@import url("https://codedotspectra.github.io/themes/core/badges.css");
+@import url("https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/No.css");
+
+:root {
+--backgroundblur: 10px;
+--popoutblur: 1px;
+--backdropblur: 10px;
+--background-mentioned: rgba(250,166,26,0.25);
+--background-mentioned-hover: rgba(250,166,26,0.25);
+--background-image: url('https://i.imgur.com/FoQaFKa.jpeg');
+--background-image-blur: 100px;
+--popout-modal-image: url('https://i.imgur.com/FoQaFKa.jpeg');
+--popout-modal-blur: 1px;
+--serverlist-brightness: 0.7;
+--left-brightness: 0.6;
+--middle-brightness: 0.7;
+--right-brightness: 1;
+--popout-modal-brightness: 0.5;
+--font: 'Ubuntu', sans-serif;
+--tint-colour: 255, 255, 255,0.1;
+--tint-brightness: 0.4;
+--gradient-primary: 103,58,183,0.5;
+--gradient-secondary: 63,81,181,0.5;
+--window-padding: 1px;
+--window-roundness: 63px;
+--scrollbar-colour: rgba(255,255,255,0.5);
+--link-colour: #2a51a3;
+--show-gift-gif-buttons: none;
+--update-notice-1: none;
+}
+#app-mount .tooltipBlack-PPG47z {
+  background: rgba(255,255,255,0.5);
+}
+#app-mount .tooltipBlack-PPG47z .tooltipPointer-3ZfirK {
+  border-top-color: rgba(255,255,255,0.6);
+  display: block;
+}
+#app-mount:before {
+  opacity: 0.3;
+  content: "";
+  background: var(--background-image,1);
+  background-position: var(--background-image-position, center);
+  background-size: var(--background-image-size, cover);
+  position: absolute;
+  height: calc(100vh + (var(--background-image-blur) * 2));
+  width: calc(100vw + (var(--background-image-blur) * 2));
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.theme-dark {
+  --header-primary: #fff;
+  --header-secondary: #bbb;
+  --text-normal: #fff;
+  --text-default: #ddd;
+  --text-muted: #aaa;
+  --text-link: #00b0f4;
+  --channels-default: #ddd;
+  --interactive-normal: #bbb;
+  --interactive-hover: #eee;
+  --interactive-active: #fff;
+  --interactive-muted: #777;
+  --background-primary: (0,0,0,1);
+  --background-secondary: rgba(0,0,0,0.3);
+  --background-secondary-alt: (0,0,0,1);
+  --background-tertiary: transparent;
+  --background-accent: #4f545c;
+  --background-floating: (0,0,0,0);
+  --background-mobile-primary: #36393f;
+  --background-mobile-secondary: #2f3136;
+  --background-modifier-hover: rgba(255,255,255,0.5);
+  --background-modifier-active: rgba(255,255,255,0.1);
+  --background-modifier-selected: rgba(255,255,255,0.1);
+  --background-modifier-accent: rgba(255,255,255,0.1);
+  --background-message-hover: rgba(4,4,5,0.5);
+  --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15);
+  --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+  --elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
+  --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
+  --logo-primary: #fff;
+  --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+  --channeltextarea-background: rgba(255,255,255,0.25);
+  --activity-card-background: #202225;
+  --textbox-markdown-syntax: #8e9297;
+  --deprecated-card-bg: rgba(0,0,0,0.3);
+  --deprecated-card-editable-bg: rgba(0,0,0,0.1);
+  --deprecated-store-bg: #36393f;
+  --deprecated-quickswitcher-input-background: var(--channeltextarea-background);
+  --deprecated-quickswitcher-input-placeholder: rgba(255,255,255,0.5);
+  --deprecated-text-input-bg: rgba(0,0,0,0.1);
+  --deprecated-text-input-border: rgba(0,0,0,0.3);
+  --deprecated-text-input-border-hover: #040405;
+  --deprecated-text-input-border-disabled: #202225;
+  --deprecated-text-input-prefix: #dcddde;
+  --text-link: var(--link-colour);
+}
